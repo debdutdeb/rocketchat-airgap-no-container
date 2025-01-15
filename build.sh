@@ -31,6 +31,7 @@ info() {
 }
 
 main() {
+	# TODO: use umoci or runc
 	pushd $tmpdir
 
 	local image="registry.rocket.chat/rocketchat/rocket.chat:$version"
